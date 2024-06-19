@@ -1,0 +1,20 @@
+ 
+
+.Click{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    font-size: 20px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+
+  }
+  
+  .Click:hover{
+    background-color: aliceblue;
+    border: 1px solid aqua;
+    font-size: 32px;
+    transition: 0.5s;
+
+  }

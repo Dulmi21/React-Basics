@@ -1,0 +1,16 @@
+Card components- Components witha piture, title and a description
+
+
+// Style react components with CSS
+// 1.External
+// 2.Modules
+// 3.Inline
+
+
+Props- read-only properties that are shared between components.  parent component can send 
+ data to a chilcomponent.
+ <COMPONENT KEY=VAUE />
+ EX: When we made cards, all card components were identical
+ . BUT by usinh props we can set unique values to individual
+ card components
+ 

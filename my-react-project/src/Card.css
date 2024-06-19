@@ -1,0 +1,34 @@
+.card{
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #b8b9d8;
+    margin: 20px;
+  
+    text-align: center;
+    display: inline-block;
+  
+  }
+  .card:hover{
+    box-shadow: 5px 5px 5px #ca1ba4;
+  
+    .Card-text{
+      font-style: italic;
+    }
+  
+  
+  }
+  .card .Card-image{
+    border: 3px black;
+    margin-bottom: 10px;
+  }
+  
+  .card .Card-title{
+    font-weight: 800;
+    font-style: italic;  
+  
+  }
+  
+  .card .Card-text{
+    font-weight: 300;
+  }
