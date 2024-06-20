@@ -74,12 +74,12 @@ function List(props){
          
         );
 }
-List.propTypes ={
-    category: PropTypes.string,
-    items:PropTypes.arrayOf(PropTypes.shape({id: PropTypes.number},
-                                           {name: PropTypes.string},
-                                           {age: PropTypes.number}))
-}
+// List.propTypes ={
+//     category: PropTypes.string,
+//     items:PropTypes.arrayOf(PropTypes.shape({id: PropTypes.number},
+//                                            {name: PropTypes.string},
+//                                            {age: PropTypes.number}))
+// }
 
 List.defaultProps={
     category: "No categoty",

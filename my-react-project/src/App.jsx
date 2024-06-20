@@ -4,7 +4,8 @@ import Students from "./Props/Students.jsx";
 import Card from "./Card.jsx";
 
 import UserGreetings from "./ConditionalRendering/UserGreetings.jsx";
-import List from "./RenderingLists/List.jsx"
+ import List from "./RenderingLists/List.jsx"
+ import Classes from "./RenderingLists/Classes.jsx"
 
 function App() {
 
@@ -13,18 +14,22 @@ function App() {
               {id:3 ,name:'Yapa',age:22}];
 
   const cities=[{name:"Colombo"}, {name:"Gampaha" },{name:"Kandy"}]
+  
+  const classes=[{classId:1 ,name:'Maths',score:23},
+                {classId:12 ,name:'Physics',score:100},
+                {classId:5 ,name:'Cheminstry',score:66}
+  ]
+  
   return(
     
     <> 
-    {/* Use conditional rendering to render our lists  */}
-      
-      
-     {/* if(names.length > 0){
-
-     } */}
+    <h1>Hiiii</h1>
+    
      {names.length > 0 ? <List list={names} heading="Name" ></List> : "Empty list" }
     
      <List list={cities} heading="City"></List>
+
+     <Classes list={classes} level="Advanced Level"></Classes>
        
     </> 
 
