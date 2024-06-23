@@ -15,9 +15,12 @@ function Counter(){
         setCount(count-1);
     }
 
+    const resetCount= ()=> {
+        setCount(0);
+    }
 
     return(
-        <div>
+        <div className='container'>
             <h1 className="number">
                   {count}
             </h1>
@@ -25,8 +28,12 @@ function Counter(){
                 Increase
             </button>
 
-            <button onClick={decreaseCount}>
+            <button className="button" onClick={decreaseCount}>
                 Decrease
+            </button>
+
+            <button className="button" onClick={resetCount}>
+                Reset
             </button>
 
             

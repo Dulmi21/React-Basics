@@ -12,6 +12,10 @@ function NewList(props){
 
     //const filteredList = children.filter(element => element.age > 20)
 
+
+
+
+
     return(
         <div>
             <h2>{props.topic}</h2>

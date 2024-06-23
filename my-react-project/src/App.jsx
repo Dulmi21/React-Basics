@@ -11,9 +11,9 @@ import UserGreetings from "./ConditionalRendering/UserGreetings.jsx";
 
 import NewList from "./RenderingLists/NewList.jsx";
 
-import MyComponent from "./UseState()/MyComponent.jsx";
+//import MyComponent from "./UseState()/MyComponent.jsx";
 import Counter from "./UseState()/Counter.jsx";
-
+import MyComponent from "./onChangeEventHandler/MyComponent.jsx";
 
 function App() {
    
@@ -21,8 +21,7 @@ function App() {
   return(
     
     <> 
-    <Counter/>
-    
+    <MyComponent/>    
     
     </> 
 
