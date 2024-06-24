@@ -6,14 +6,16 @@ import Button from "./OnClickEvents/Button.jsx"
 import ProfilePicture from "./OnClickEvents/ProfilePicture.jsx";
 
 import UserGreetings from "./ConditionalRendering/UserGreetings.jsx";
- import List from "./RenderingLists/List.jsx"
- import Classes from "./RenderingLists/Classes.jsx"
+import List from "./RenderingLists/List.jsx"
+import Classes from "./RenderingLists/Classes.jsx"
 
 import NewList from "./RenderingLists/NewList.jsx";
+import ColourPicker from "./onChangeEventHandler/ColourPicker.jsx";
 
 //import MyComponent from "./UseState()/MyComponent.jsx";
 import Counter from "./UseState()/Counter.jsx";
-import MyComponent from "./onChangeEventHandler/MyComponent.jsx";
+import MyComponent from "./Updater/new.jsx";
+//import MyComponent from "./onChangeEventHandler/MyComponent.jsx";
 
 function App() {
    
@@ -21,7 +23,7 @@ function App() {
   return(
     
     <> 
-    <MyComponent/>    
+     <MyComponent/>
     
     </> 
 

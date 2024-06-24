@@ -7,6 +7,7 @@ function Button(){
     let count =0;
     //no parameters
     const handleClick = () => {
+        
         count++;
         console.log("Clicked");
         console.log(count);
@@ -36,7 +37,7 @@ function Button(){
             <h1></h1>
            <button className="newButton" onClick={() =>handleClick2("Dulmi")}></button>
 
-            <button className='newButton' onDoubleClick={(e) =>handleClick3(e)}>Hi</button>
+           <button className='newButton' onDoubleClick={(e) =>handleClick3(e)}>Hi</button>
         
         </>
       );
